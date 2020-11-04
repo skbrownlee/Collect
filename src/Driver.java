@@ -9,7 +9,7 @@ public class Driver {
 		
 		List<String> list = new ArrayList<>();
 		
-		list.indexOf("particular string");
+		System.out.println(list.indexOf("particular string"));
 		
 		HashMap<String, Integer> hasher = new HashMap<String, Integer>();
 		hasher.put("Hey", 1);
@@ -22,7 +22,9 @@ public class Driver {
 		tree.put(new Thingy("Alex"), 2);
 		System.out.println(tree.toString());
 		
-		// Tree map autoSo
+		// Tree map autoSorts the entries and HashMap accesses them randomly
+		
+		// You should use a treemap to guarantee the order of keys.
 		
 	}
 
