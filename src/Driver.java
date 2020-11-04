@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.TreeMap;
+import java.util.TreeSet;
 
 public class Driver {
 
@@ -9,7 +10,10 @@ public class Driver {
 		
 		List<String> list = new ArrayList<>();
 		
-		System.out.println(list.indexOf("particular string"));
+		TreeSet<String> set = new TreeSet<String>(list);
+		
+		System.out.println(set.toString());
+		
 		
 		HashMap<String, Integer> hasher = new HashMap<String, Integer>();
 		hasher.put("Hey", 1);
